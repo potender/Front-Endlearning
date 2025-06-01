@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css选择器</title>
+    <style>
+        /* 属性选择器 */
+        h1{
+            color:red;
+        }
+        /* 类选择器 */
+        .hightlight{
+            color:blue;
+        }
+        /* id选择器 */
+        #header{
+            color:green;
+        }
+        /* 通用选择器 */
+        *{
+            font-family: "kaiti";
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h1>属性选择器</h1>
+    <h2 class="hightlight">类选择器</h2>
+    <h3 id="header">id选择器</h3>
+    <div class="father">
+        <p class="son">子元素选择器</p>
+    </div>
+</body>
+</html>
