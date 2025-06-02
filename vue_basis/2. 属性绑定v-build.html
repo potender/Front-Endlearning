@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>v-biuld</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script> <!-- 引入 Vue 2 -->
+</head>
+<body>
+    <div id="app">
+        <img :src="imageUrl" alt="示例图片">
+    </div>
+
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+            imageUrl: 'https://vuejs.org/images/logo.png'
+            }
+        });
+    </script>
+</body>
+</html>

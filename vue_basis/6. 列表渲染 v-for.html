@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>事件处理</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+    <ul>
+        <li v-for="fruit in fruits">{{ fruit }}</li>
+    </ul>
+    </div>
+
+    <script>
+    new Vue({
+        el: '#app',
+        data: {
+        fruits: ['苹果', '香蕉', '橘子']
+        }
+    });
+    </script>
+    
+</body>
+</html>
